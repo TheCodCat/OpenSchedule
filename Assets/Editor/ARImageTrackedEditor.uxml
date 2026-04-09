@@ -1,0 +1,9 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/style.uss?fileID=7433441132597879392&amp;guid=ba4f6df3f600e1b4f84b43769735279c&amp;type=3#style"/>
+    <ui:VisualElement style="flex-grow: 1; font-size: 30px;">
+        <ui:Label text="Контроллер остлеживания изображений" name="Label" style="-unity-font-style: bold; -unity-text-align: middle-center; white-space: pre-wrap; padding-bottom: 23px; padding-top: 10px; font-size: 25px;"/>
+        <uie:PropertyField binding-path="m_SerializedLibrary" label="Библиотека изображений" enabled="true" data-source-type="UnityEngine.XR.ARFoundation.ARTrackedImageManager, Unity.XR.ARFoundation" data-source-path="" class="item"/>
+        <uie:PropertyField binding-path="m_MaxNumberOfMovingImages" label="Качество трекинга" enabled="true" data-source-type="UnityEngine.XR.ARFoundation.ARTrackedImageManager, Unity.XR.ARFoundation" data-source-path="" name="PropertyField" class="item" style="white-space: pre-wrap;"/>
+        <uie:PropertyField binding-path="m_TrackedImagePrefab" label="Создаваемый объект" enabled="true" data-source-type="UnityEngine.XR.ARFoundation.ARTrackedImageManager, Unity.XR.ARFoundation" data-source-path="" name="PropertyField" class="item"/>
+    </ui:VisualElement>
+</ui:UXML>
